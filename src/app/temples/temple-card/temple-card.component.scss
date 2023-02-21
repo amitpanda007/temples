@@ -1,0 +1,102 @@
+.card-image-container {
+  margin: 1rem;
+  height: 100%;
+}
+
+.card-image {
+  height: 100%;
+  position: relative;
+}
+
+.image {
+  height: 100%;
+}
+
+.card-image-container div.action-section {
+  position: absolute;
+  bottom: 12rem;
+  right: 2rem;
+}
+
+.card-video-container {
+  height: 100%;
+}
+
+.card-video {
+  height: 100%;
+  position: relative;
+  padding: 0 !important;
+}
+
+.video {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-video-container div.action-section {
+  position: absolute;
+  bottom: 10rem;
+  right: 2rem;
+}
+
+.action-section {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.action-section mat-icon {
+  margin: 2rem 0 0 0;
+  font-size: 32px;
+}
+
+.card-video-container div.action-section-top-right {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
+.action-section-top-right {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.action-section-top-right mat-icon {
+  margin: 2rem 0 0 0;
+  font-size: 32px;
+}
+
+.card-video-container div.action-section-top {
+  position: absolute;
+  top: 0;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255 255 255 / 20%);
+  cursor: pointer;
+}
+
+.action-section-top mat-icon {
+  font-size: 32px;
+}
+
+.card-video-container div.action-section-bottom {
+  position: absolute;
+  bottom: 0;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255 255 255 / 20%);
+  cursor: pointer;
+}
+
+.action-section-bottom mat-icon {
+  font-size: 32px;
+}

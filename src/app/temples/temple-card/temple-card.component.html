@@ -1,0 +1,53 @@
+<div class="card-video-container">
+  <mat-card class="card-video">
+    <video
+      #vid
+      class="video"
+      playsinline
+      autoplay
+      [muted]="isMuted"
+      [src]="cardVideo"
+      (click)="playPause()"
+    ></video>
+    <div class="action-section-top-right">
+      <mat-icon
+        aria-hidden="false"
+        aria-label="volume_up"
+        *ngIf="!isMuted"
+        (click)="videoVolumeControl()"
+        >volume_up</mat-icon
+      >
+      <mat-icon
+        aria-hidden="false"
+        aria-label="volume_off"
+        *ngIf="isMuted"
+        (click)="videoVolumeControl()"
+        >volume_off</mat-icon
+      >
+    </div>
+    <div class="action-section">
+      <mat-icon
+        aria-hidden="false"
+        aria-label="favorite"
+        matBadge="15"
+        matBadgeColor="warn"
+        >favorite</mat-icon
+      >
+      <mat-icon aria-hidden="false" aria-label="share">share</mat-icon>
+    </div>
+    <div class="action-section-top" (click)="moveUpClicked()" *ngIf="hasPrev">
+      <mat-icon aria-hidden="false" aria-label="expand_less"
+        >expand_less</mat-icon
+      >
+    </div>
+    <div
+      class="action-section-bottom"
+      (click)="moveDownClicked()"
+      *ngIf="hasNext"
+    >
+      <mat-icon aria-hidden="false" aria-label="expand_more"
+        >expand_more</mat-icon
+      >
+    </div>
+  </mat-card>
+</div>

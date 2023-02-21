@@ -1,0 +1,9 @@
+.container {
+  height: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.cardStyle {
+  height: 100px;
+}

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mandir-puja": {
+      "hosting": {
+        "mandir": [
+          "mandir-puja"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mandir-puja"
+  }
+}
