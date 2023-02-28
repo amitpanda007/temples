@@ -5,7 +5,7 @@
   "background_color": "#FADE85",
   "display": "standalone",
   "scope": "./",
-  "start_url": "./",
+  "start_url": "/shorts",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
