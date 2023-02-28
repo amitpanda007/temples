@@ -6,3 +6,4 @@
 - Referrence Documents
   - https://web.dev/media-streaming-basics/
   - https://web.dev/video-and-source-tags/
+  - https://developer.mozilla.org/en-US/docs/Web/Media/DASH_Adaptive_Streaming_for_HTML_5_Video
